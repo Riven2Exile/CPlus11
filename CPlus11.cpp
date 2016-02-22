@@ -8,9 +8,23 @@ void test_longlong();
 
 
 
+class A
+{
+public:
+	//A(){}
+
+	//virtual ~A(){};
+
+	void P(){ printf("pddd\n"); }
+};
+
+
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+
+	A a;
+	a.P();
 
 	test_longlong();
 
